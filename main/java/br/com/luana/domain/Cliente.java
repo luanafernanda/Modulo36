@@ -34,6 +34,9 @@ public class Cliente implements Persistente {
     
 	@ColunaTabela(dbName = "estado", setJavaName = "setEstado")
     private String estado;
+	
+	@ColunaTabela(dbName = "email", setJavaName = "setEmail")
+    private String email;
     
 	public String getNome() {
 		return nome;
@@ -84,8 +87,11 @@ public class Cliente implements Persistente {
 		this.id = id;
 	}
 	
+	public String getEmail() { 
+	    return email;
+	}
 	
-
-	
-
+	public void setEmail(String email) { 
+	    this.email = email;
+	}
 }
