@@ -8,5 +8,7 @@
 	<classpathentry kind="src" path="main/java"/>
 	<classpathentry kind="src" path="teste/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/lfsg2/Downloads/hibernate-core-5.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lfsg2/Downloads/jakarta.persistence-api-2.2.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
