@@ -32,7 +32,10 @@ import br.com.luana.exceptions.MaisDeUmRegistroException;
 import br.com.luana.exceptions.TableException;
 import br.com.luana.exceptions.TipoChaveNaoEncontradaException;
 
-
+/**
+ * @author rodrigo.pires
+ *
+ */
 public class VendaJpaDAOTest {
 	
 	private IVendaJpaDAO vendaDao;

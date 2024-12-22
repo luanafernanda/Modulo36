@@ -1,4 +1,3 @@
-
 package br.com.luana.dao.jpa;
 
 import javax.persistence.TypedQuery;
@@ -6,15 +5,14 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import br.com.luana.dao.generic.jpa.GenericJpaDAO;
+import br.com.luana.dao.generic.jpa.GenericJpaDB1DAO;
 import br.com.luana.domain.jpa.ClienteJpa;
 import br.com.luana.domain.jpa.ProdutoJpa;
 import br.com.luana.domain.jpa.VendaJpa;
 import br.com.luana.exceptions.DAOException;
 import br.com.luana.exceptions.TipoChaveNaoEncontradaException;
 
-
-public class VendaJpaDAO extends GenericJpaDAO<VendaJpa, Long> implements IVendaJpaDAO {
+public class VendaJpaDAO extends GenericJpaDB1DAO<VendaJpa, Long> implements IVendaJpaDAO {
 
 	public VendaJpaDAO() {
 		super(VendaJpa.class);

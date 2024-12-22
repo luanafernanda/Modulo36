@@ -1,4 +1,4 @@
-package br.com.luana.dao;
+package br.com.luana.domain.jpa;
 
 
 public interface Persistente {

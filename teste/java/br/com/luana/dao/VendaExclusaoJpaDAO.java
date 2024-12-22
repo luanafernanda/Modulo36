@@ -1,14 +1,14 @@
 
 package br.com.luana.dao;
 
-import br.com.luana.dao.generic.jpa.GenericJpaDAO;
+import br.com.luana.dao.generic.jpa.GenericJpaDB1DAO;
 import br.com.luana.dao.jpa.IVendaJpaDAO;
 import br.com.luana.domain.jpa.VendaJpa;
 import br.com.luana.exceptions.DAOException;
 import br.com.luana.exceptions.TipoChaveNaoEncontradaException;
 
 
-public class VendaExclusaoJpaDAO extends GenericJpaDAO<VendaJpa, Long> implements IVendaJpaDAO {
+public class VendaExclusaoJpaDAO extends GenericJpaDB1DAO<VendaJpa, Long> implements IVendaJpaDAO {
 
 	public VendaExclusaoJpaDAO() {
 		super(VendaJpa.class);
